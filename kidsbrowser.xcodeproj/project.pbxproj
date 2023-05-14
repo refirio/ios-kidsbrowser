@@ -15,6 +15,8 @@
 		031B71052A10994400D832DD /* WebToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031B71042A10994400D832DD /* WebToolBarView.swift */; };
 		031B71072A10997500D832DD /* WebContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031B71062A10997500D832DD /* WebContentView.swift */; };
 		031B71092A1099A500D832DD /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031B71082A1099A500D832DD /* WebView.swift */; };
+		031B710B2A109F3C00D832DD /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031B710A2A109F3B00D832DD /* TimerModel.swift */; };
+		031B710D2A10A2CD00D832DD /* CountDownBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031B710C2A10A2CD00D832DD /* CountDownBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		031B71042A10994400D832DD /* WebToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebToolBarView.swift; sourceTree = "<group>"; };
 		031B71062A10997500D832DD /* WebContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentView.swift; sourceTree = "<group>"; };
 		031B71082A1099A500D832DD /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		031B710A2A109F3B00D832DD /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		031B710C2A10A2CD00D832DD /* CountDownBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				031B71042A10994400D832DD /* WebToolBarView.swift */,
 				031B71062A10997500D832DD /* WebContentView.swift */,
 				031B71082A1099A500D832DD /* WebView.swift */,
+				031B710A2A109F3B00D832DD /* TimerModel.swift */,
+				031B710C2A10A2CD00D832DD /* CountDownBarView.swift */,
 			);
 			path = kidsbrowser;
 			sourceTree = "<group>";
@@ -151,8 +157,10 @@
 			files = (
 				031B71032A1098CC00D832DD /* WebProgressBarView.swift in Sources */,
 				031B70F72A0FB99300D832DD /* ContentView.swift in Sources */,
+				031B710D2A10A2CD00D832DD /* CountDownBarView.swift in Sources */,
 				031B70F52A0FB99300D832DD /* kidsbrowserApp.swift in Sources */,
 				031B71092A1099A500D832DD /* WebView.swift in Sources */,
+				031B710B2A109F3C00D832DD /* TimerModel.swift in Sources */,
 				031B71072A10997500D832DD /* WebContentView.swift in Sources */,
 				031B71052A10994400D832DD /* WebToolBarView.swift in Sources */,
 			);
