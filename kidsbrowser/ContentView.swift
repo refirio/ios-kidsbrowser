@@ -8,14 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    let url = URL(string: "https://www.youtube.com/feed/library")!
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        WebView(url: url)
     }
 }
 
